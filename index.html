@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+
+    <main>
+
+
+        <section class="wrapper_sec">
+            <div class="wrapper-sign">
+                <section class="signUp-sec">
+                    <h1>SIGN UP!</h1>
+                    <div class="input-group">
+
+                        <form action="" method="get" name="form" onsubmit="return myAuth()">
+                            <div>
+                                <input type="text" name="user" placeholder="Username">
+                                <span><i class="fa fa-user-o icon" ></i></span>
+                                <span id="user-span"></span>
+                            </div>
+                            <div>
+                                <input type="email" name="email" placeholder="Email">
+                                <span><i class="fa fa-envelope-o icon" ></i></span>
+                                <span id="email-span"></span>
+                            </div>
+
+                            <div>
+                                <input type="password" name="password" placeholder="Password">
+                                <span><i class="fa fa-lock icon" ></i>
+                                    <i onclick="_iconClick(this)" class="fa fa-eye-slash eye" ></i></span>
+                                <span id="pass-span"></span>
+                            </div>
+
+                            <div>
+                                <input type="password" name="confirm-password" placeholder="Confirm Password">
+                                <span>
+                                    <i class="fa fa-lock icon" ></i>
+                                    <i class="fa fa-eye-slash eye"  onclick="_iconClick(this)"></i>
+                                </span>
+                                <span id="conpass-span">
+
+                                </span>
+                            </div>
+                            <button class="btn">SIGN UP</button>
+                        </form>
+                    </div>
+
+                </section>
+
+                <section class="signIn-sec">
+
+                    <h1>SIGN UP!</h1>
+                    <div class="input-group">
+
+                        <form action="" method="get" name="form1" onsubmit="return myAuth1()">
+                            <div>
+                                <input type="text" name="user" placeholder="Username">
+                                <span><i class="fa fa-user-o icon" ></i></span>
+                                <span id="user1-span"></span>
+                            </div>
+
+
+                            <div>
+                                <input type="password" name="password" placeholder="Password">
+                                <span>
+                                    <i class="fa fa-lock icon" ></i>
+                                    <i class="fa fa-eye-slash eye" onclick="_iconClick1(this)" ></i>
+                                </span>
+                                <span id="pass1-span"></span>
+                            </div>
+
+
+                            <button class="btn">SIGN UP</button>
+                        </form>
+                    </div>
+                </section>
+            </div>
+
+            <div class="wrapper-wel">
+                <section class="hello">
+
+
+
+                    <h1>Hello</h1>
+
+                    <img src="img/img 1.png" alt="">
+                    <p>To Keep connected with us please login with your personal info</p>
+
+                    <button id="H-btn">Sign Up</button>
+                </section>
+                <section class="welcome">
+
+
+                    <h1>Welcome</h1>
+
+                    <img src="img/img 2.png" alt="">
+                    <p>To Keep connected with us please login with your personal info</p>
+                    <button id="W-btn">Sign In</button>
+                </section>
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+</body>
+
+
+
+<script src="js/master.js"></script>
+
+</html>

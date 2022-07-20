@@ -1,0 +1,183 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    @font-face {
+        font-family: poppins;
+        src: url(../fonts/Poppins-Medium.ttf);
+    }
+    
+    main {
+        width: 100%;
+        height: 100vh;
+        background-color: #D9AFD9;
+        background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: poppins;
+    }
+    
+    .wrapper_sec {
+        width: 58%;
+        height: 90vh;
+        display: flex;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    
+    .wrapper-sign {
+        width: 60%;
+        height: 90vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .signUp-sec {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        transition: 1s;
+        padding: 30px
+    }
+    
+    .signIn-sec {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        transition: 1s;
+        padding: 30px
+    }
+    
+    .wrapper-wel {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .welcome {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 0, 234);
+        transition: 1s;
+        transform: translateY(-100%);
+        color: white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .welcome>h1,
+    .hello>h1 {
+        font-size: 1.5rem;
+        letter-spacing: 10px;
+    }
+    
+    .welcome p,
+    .hello>p {
+        font-size: .8rem
+    }
+    
+    .welcome img,
+    .hello img {
+        width: 100%;
+        height: 50vh
+    }
+    
+    #W-btn,
+    #H-btn {
+        width: 55%;
+        height: 8vh;
+        color: white;
+        border: 1.8px solid white;
+        background-color: rgb(255, 0, 234);
+        border-radius: 10px;
+    }
+    
+    .hello {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 0, 234);
+        transition: 1s;
+        transform: translateY(-100%);
+        color: white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .input-group {
+        width: 100%;
+        height: 70vh;
+    }
+    
+    .input-group form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: relative;
+    }
+    
+    .input-group form input {
+        width: 100%;
+        line-height: 30px;
+        border: none;
+        border-bottom: 2px solid rgb(152, 169, 192);
+        outline: none;
+        padding-left: 25px;
+    }
+    
+    .input-group form div {
+        position: relative;
+        width: 100%;
+    }
+    
+    .signUp-sec h1,
+    .signIn-sec h1 {
+        font-size: 2.8rem;
+        font-weight: bolder;
+    }
+    
+    .icon {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        color: rgb(150, 147, 147)
+    }
+    
+    .eye {
+        right: 10px;
+        position: absolute;
+        top: 5px;
+        color: rgb(150, 147, 147)
+    }
+    
+    .btn {
+        width: 50%;
+        height: 8vh;
+        color: white;
+        border: none;
+        background-color: rgb(255, 0, 234);
+        border-radius: 10px;
+        font-weight: bold;
+        margin-left: 90px;
+    }
+    
+    .span-style1 {
+        color: red;
+        font-size: .8rem;
+    }
+    
+    .span-style2 {
+        color: forestgreen;
+        font-size: .8rem;
+    }
